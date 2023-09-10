@@ -1,7 +1,18 @@
-import React from 'react'
+import './App.css'
+import { Outlet } from 'react-router'
+import Menu from './components/Menu'
+import Rodape from './components/Rodape'
 
-export default function App() {
+function App() {
   return (
-    <div>App</div>
+    <>
+
+    <Menu/>
+    <Outlet/>
+    <Rodape/>
+    
+    </>
   )
 }
+
+export default App
