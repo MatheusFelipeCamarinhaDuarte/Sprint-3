@@ -1,49 +1,45 @@
-/* Estilizando o container principal */
-div.container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding: 30px 38px 35px 25px;
-    background: linear-gradient(0deg, black 0%, black 100%), linear-gradient(0deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
-    border: 1.5px rgba(116, 116, 122, 0.59) solid;
-    gap: 605px;
+nav.rodape{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  background: linear-gradient(0deg, black 0%, black 100%), linear-gradient(0deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+  border: 1.50px rgba(116, 116, 122, 0.59) solid
   }
   
-  /* Estilizando o texto "Sobre nós" */
-  div.text-sobre-nos {
+  .text-rodape{
+    list-style: none;
     color: rgba(255, 255, 255, 0.70);
     font-size: 48px;
     font-family: Patua One;
     font-weight: 400;
-    word-wrap: break-word;
+    margin: 16px;
   }
   
-  /* Estilizando o logotipo e a imagem */
-  div.logo-container {
+  div.logo-rodape {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 326px;
+    flex-direction: row;
+    align-items: center;
+
   }
   
-  div.logo-text {
+  li.logo-text-rodape {
+    list-style-type: none;
     color: #157EFB;
     font-size: 64px;
     font-family: Patua One;
     font-weight: 400;
-    word-wrap: break-word;
-    margin-left: 50px;
+
   }
   
-  div.logo-img {
+  img.logo-img-rodape {
     width: 50px;
     height: 50px;
-    position: absolute;
-    left: 0;
-    top: 43px;
   }
-  
+div.texts-rodape{
+  display: flex;
+  justify-content: space-around;
+}
