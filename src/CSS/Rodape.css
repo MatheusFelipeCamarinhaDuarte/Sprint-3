@@ -13,9 +13,9 @@ nav.rodape{
   .text-rodape{
     list-style: none;
     color: rgba(255, 255, 255, 0.70);
-    font-size: 48px;
+    font-size: 40px;
     font-family: Patua One;
-    font-weight: 400;
+    font-weight: bold;
     margin: 16px;
   }
   
@@ -29,9 +29,9 @@ nav.rodape{
   li.logo-text-rodape {
     list-style-type: none;
     color: #157EFB;
-    font-size: 64px;
+    font-size: 50px;
     font-family: Patua One;
-    font-weight: 400;
+    font-weight: bold;
 
   }
   
@@ -41,5 +41,5 @@ nav.rodape{
   }
 div.texts-rodape{
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
 }

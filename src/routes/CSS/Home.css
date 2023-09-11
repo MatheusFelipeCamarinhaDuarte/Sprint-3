@@ -1,8 +1,57 @@
-main{
+main :nth-child(){
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+img {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+}
+
+h2{
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 50px;
+    font-family: Patua One;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    word-wrap: break-word;
+}
+
+.beneficios{
+    padding: 0px 35px;
+}
+
+.beneficios li{
+    text-align: justify;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    word-wrap: break-word;
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 20px;
+    font-family: Patua One;
+    font-weight: bold;
+}
+
+.plano {
+    width: 42%;
+    height: 650 ;
+    background: linear-gradient(180deg, #D9D9D9 0%, #00B4D8 100%);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex
+}
+
+.planos{
+    display: flex;
+    justify-content: space-around;
+}
+
 /* 
 .plano{
 
@@ -41,7 +90,7 @@ padding: 16px;
     color: rgba(255, 255, 255, 0.95);
     font-size: 64px;
     font-family: Patua One;
-    font-weight: 400;
+    font-weight: bold;
     word-wrap: break-word
 }
 

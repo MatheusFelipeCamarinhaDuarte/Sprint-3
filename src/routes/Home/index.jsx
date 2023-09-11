@@ -29,10 +29,8 @@ export default function index() {
             <li>Transporte do segurado e Bike - limite de 50km, em caso de quebra ou acidente</li>
         </div>
     </nav>
-
-
-
-    <nav className='plano elite'>
+</nav>
+    <nav className='plano-elite'>
         <img className='imagem-plano-elite'src={imgPedalElite} />
         <h2>Pedal Elite</h2>
         <div className='beneficios-elite'>
@@ -43,7 +41,6 @@ export default function index() {
             <li>Serviço de Leva e Traz, com limite de 50km, mediante agendamento prévio</li>
         </div>
     </nav>
-</nav>
     <nav className='vistoria'>
       <button className="botao-vistoria">
         <Link to="/dados-cliente" className='texto-vistoria'>Realizar vistoria</Link>
