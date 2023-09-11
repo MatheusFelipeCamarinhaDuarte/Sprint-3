@@ -16,7 +16,7 @@ export default function index() {
 <fieldset>
     <legend>Fotos</legend>
 
-        <div>
+        <div className="quadro">
             <div>
                 <img src={Quadro} />
                 {/* 100px por 80px */}
@@ -28,7 +28,7 @@ export default function index() {
             </div>
         </div>
 
-        <div>
+        <div className="quadro">
             <div>
                 <img src={NumSerie} />
                 {/* 80px por 80px */}
@@ -40,7 +40,7 @@ export default function index() {
             </div>
         </div>
 
-        <div>
+        <div className="quadro">
             <div>
                 <img src={RodaTras} />
                 {/* 60px por 72px */}
@@ -52,7 +52,7 @@ export default function index() {
             </div>
         </div>
 
-        <div>
+        <div className="quadro">
             <div>
                 <img src={RodaFrente} />
                 {/* 60px por 72px */}
@@ -64,7 +64,7 @@ export default function index() {
             </div>
         </div>
 
-        <div>
+        <div className="quadro">
             <div>
                 <img src={FrontalTraseira} />
                 {/* 70px por 72px */}
@@ -76,7 +76,7 @@ export default function index() {
             </div>
         </div>
 
-        <div>
+        <div className="quadro">
             <div>
                 <img src={Lateral} />
                 {/* 100px por 72px */}
@@ -88,7 +88,7 @@ export default function index() {
             </div>
         </div>
 
-        <div>
+        <div className="quadro">
             <div>
                 <img src={FrontalTraseira} />
                 {/* 70px por 72px */}
@@ -100,13 +100,15 @@ export default function index() {
             </div>
         </div>
 
-        <div>
+        <div className="quadro">
             <div>
                 <img src={Acessorios} />
                 {/* 124px por 72px */}
                 <p>Acessórios</p>
             </div>
-            <button>Enviar</button>
+            <button className="botao-enviar">
+                <Link to="" className="texto-enviar">Enviar</Link>
+            </button>
         </div>
         
 </fieldset>
