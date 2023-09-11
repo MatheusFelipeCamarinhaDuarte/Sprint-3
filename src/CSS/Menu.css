@@ -21,9 +21,9 @@ div.logo {
 li.logo-text {
   list-style-type: none;
   color: #157EFB;
-  font-size: 64px;
+  font-size: 50px;
   font-family: Patua One;
-  font-weight: 400;
+  font-weight: bold;
 
   word-wrap: break-word;
 }
@@ -37,9 +37,9 @@ img.logo-img {
 .text {
   list-style-type: none;
   color: rgba(0, 0, 0, 0.70);
-  font-size: 48px;
+  font-size: 40px;
   font-family: Patua One;
-  font-weight: 400;
+  font-weight: bold;
   word-wrap: break-word;
   text-align: center;
   margin: 16px;
