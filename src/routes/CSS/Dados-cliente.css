@@ -1,10 +1,31 @@
-img{
-    width: 50px;
-    height: 50px;
-}
+/*
+Página
+*/
+main {
+    display: flex;
+    width: 1200px;
+    height: 1475px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #FFF 0%, #A4DFFA 100%);
+};
+
 
 /*
-título
+Retângulo de interação
+*/
+width: 1000px;
+height: 1000px;
+flex-shrink: 0;
+background: linear-gradient(180deg, #D9D9D9 0%, #00B4D8 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+
+/*
+Título
 */
 color: #000;
 font-family: Patua One;
@@ -13,62 +34,40 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 
-/*
-fundo
-*/
-display: flex;
-width: 1200px;
-height: 1475px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 100px;
-flex-shrink: 0;
-background: linear-gradient(180deg, #FFF 0%, #A4DFFA 100%);
 
 /*
-gradiente
-*/
-width: 1000px;
-height: 1000px;
-flex-shrink: 0;
-background: linear-gradient(180deg, #D9D9D9 0%, #00B4D8 100%);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-
-/*
-mini-retangulos
+Retângulo do formulário
 */
 display: flex;
-width: 200px;
-padding: 13px 12px 6px 13px;
+width: 800px;
+padding: 0px 50px 27px 50px;
 flex-direction: column;
-justify-content: flex-end;
-align-items: center;
-gap: 6px;
+align-items: flex-start;
+gap: 29px;
 background: #157EFB;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
 
 /*
-botoes
+Campos do form
 */
-display: flex;
-height: 25px;
-padding: 4px 28px 3px 28px;
-justify-content: center;
-align-items: center;
+width: 700px;
+height: 60px;
+flex-shrink: 0;
+border: 1px solid #157EFB;
 background: #FFF;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
-color: #000;
+/*
+Textos do form
+*/
+color: #FFF;
 font-family: Patua One;
-font-size: 15px;
+font-size: 64px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
-
+line-height: 100px; /* 156.25% */
 
 /*
-voltar
+Botão voltar
 */
 display: inline-flex;
 padding: 25px 56px;
@@ -85,7 +84,7 @@ font-weight: 400;
 line-height: normal;
 
 /*
-avançar
+Botão avançar
 */
 display: inline-flex;
 padding: 25px;
