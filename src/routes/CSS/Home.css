@@ -1,0 +1,48 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* 
+.plano{
+
+}
+
+.planos{
+
+}
+
+img.imagem-plano{
+
+}
+
+img.imagem-plano-elite{
+
+}
+
+div.beneficios{
+
+}
+
+div.beneficios-elite{
+
+} */
+
+.vistoria{
+padding: 16px;
+}
+
+.botao-vistoria{
+    width: 50%;
+    background: #425AB0;
+}
+
+.texto-vistoria{
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 64px;
+    font-family: Patua One;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+
