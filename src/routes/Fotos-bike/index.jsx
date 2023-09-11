@@ -15,100 +15,100 @@ export default function index() {
     
 <fieldset>
     <legend>Fotos</legend>
-
-        <div className="div-quadro">
-            <div>
-                <img src={Quadro} />
-                {/* 100px por 80px */}
-                <p>Foto do Quadro</p>
+        <div className="caixa">
+            <div className="quadro">
+                <div>
+                    <img src={Quadro} />
+                    {/* 100px por 80px */}
+                    <p>Foto do Quadro</p>
+                </div>
+                <div>
+                    <div></div>
+                    <div className="botao-enviar">Enviar</div>
+                </div>
             </div>
-            <div>
-                <div></div>
-                <div>Enviar</div>
+
+            <div className="quadro">
+                <div>
+                    <img src={NumSerie} />
+                    {/* 80px por 80px */}
+                    <p>Nº de série</p>
+                </div>
+                <div>
+                    <div></div>
+                    <div className="botao-enviar">Enviar</div>
+                </div>
+            </div>
+
+            <div className="quadro">
+                <div>
+                    <img src={RodaTras} />
+                    {/* 60px por 72px */}
+                    <p>Roda traseira</p>
+                </div>
+                <div>
+                    <div></div>
+                    <div className="botao-enviar">Enviar</div>
+                </div>
+            </div>
+
+            <div className="quadro">
+                <div>
+                    <img src={RodaFrente} />
+                    {/* 60px por 72px */}
+                    <p>Roda frontal</p>
+                </div>
+                <div>
+                    <div></div>
+                    <div className="botao-enviar">Enviar</div>
+                </div>
+            </div>
+
+            <div className="quadro">
+                <div>
+                    <img src={Frontal} />
+                    {/* 70px por 72px */}
+                    <p>Foto frontal</p>
+                </div>
+                <div>
+                    <div></div>
+                    <div className="botao-enviar">Enviar</div>
+                </div>
+            </div>
+
+            <div className="quadro">
+                <div>
+                    <img src={Lateral} />
+                    {/* 100px por 72px */}
+                    <p>Foto Lateral</p>
+                </div>
+                <div>
+                    <div></div>
+                    <div className="botao-enviar">Enviar</div>
+                </div>
+            </div>
+
+            <div className="quadro">
+                <div>
+                    <img src={FrontalTraseira} />
+                    {/* 70px por 72px */}
+                    <p>Foto Traseira</p>
+                </div>
+                <div>
+                    <div></div>
+                    <div className="botao-enviar">Enviar</div>
+                </div>
+            </div>
+
+            <div className="quadro">
+                <div>
+                    <img src={Acessorios} />
+                    {/* 124px por 72px */}
+                    <p>Acessórios</p>
+                </div>
+                <button className="botao-enviar">Enviar</button>
             </div>
         </div>
-
-        <div className="div-numSerie">
-            <div>
-                <img src={NumSerie} />
-                {/* 80px por 80px */}
-                <p>Nº de série</p>
-            </div>
-            <div>
-                <div></div>
-                <div>Enviar</div>
-            </div>
-        </div>
-
-        <div className="div-rodaTras">
-            <div>
-                <img src={RodaTras} />
-                {/* 60px por 72px */}
-                <p>Roda traseira</p>
-            </div>
-            <div>
-                <div></div>
-                <div>Enviar</div>
-            </div>
-        </div>
-
-        <div className="div-rodaFrente">
-            <div>
-                <img src={RodaFrente} />
-                {/* 60px por 72px */}
-                <p>Roda frontal</p>
-            </div>
-            <div>
-                <div></div>
-                <div>Enviar</div>
-            </div>
-        </div>
-
-        <div className="div-frontal">
-            <div>
-                <img src={Frontal} />
-                {/* 70px por 72px */}
-                <p>Foto frontal</p>
-            </div>
-            <div>
-                <div></div>
-                <div>Enviar</div>
-            </div>
-        </div>
-
-        <div className="div-lateral">
-            <div>
-                <img src={Lateral} />
-                {/* 100px por 72px */}
-                <p>Foto Lateral</p>
-            </div>
-            <div>
-                <div></div>
-                <div>Enviar</div>
-            </div>
-        </div>
-
-        <div className="div-frontalTraseira">
-            <div>
-                <img src={FrontalTraseira} />
-                {/* 70px por 72px */}
-                <p>Foto Traseira</p>
-            </div>
-            <div>
-                <div></div>
-                <div>Enviar</div>
-            </div>
-        </div>
-
-        <div className="div-acessorios">
-            <div>
-                <img src={Acessorios} />
-                {/* 124px por 72px */}
-                <p>Acessórios</p>
-            </div>
-            <button>Enviar</button>
-        </div>
-        
 </fieldset>
 
 <nav>
