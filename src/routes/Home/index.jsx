@@ -32,8 +32,8 @@ export default function index() {
 </nav>
     <nav className='plano-elite'>
         <img className='imagem-plano-elite'src={imgPedalElite} />
-        <h2>Pedal Elite</h2>
         <div className='beneficios-elite'>
+          <h2>Pedal Elite</h2>
             <h3>Benefícios</h3>
             <li>Benefícios Pedal Leve</li>
             <li>Transporte do segurado e Bike - limite de 150km, em caso de quebra ou acidente </li>

@@ -1,13 +1,13 @@
 main :nth-child(){
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-img {
+img.imagem-plano {
     width: 80%;
     height: auto;
-    padding: 10px;
+    padding: 30px;
 }
 
 h2{
@@ -39,43 +39,47 @@ h2{
 
 .plano {
     width: 42%;
-    height: 650 ;
+    height: 650px ;
     background: linear-gradient(180deg, #D9D9D9 0%, #00B4D8 100%);
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    display: inline-flex
+    display: inline-flex;
+    border-radius: 10px;
+}
+
+.beneficios-elite li{
+    text-align: justify;
+    padding: 0px 40px;
+    margin: 0px;
+    border: 0px;
+    word-wrap: break-word;
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 20px;
+    font-family: Patua One;
+    font-weight: bold;
+}
+.imagem-plano-elite{
+    height: auto;
+    padding: 30px;
+    width: auto;
+}
+.plano-elite {
+    width: 92%;
+    height: 500px ;
+    background: linear-gradient(180deg, #D9D9D9 0%, #00B4D8 100%);
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+    border-radius: 10px;
 }
 
 .planos{
     display: flex;
     justify-content: space-around;
+    padding: 50px 0px 20px 0px;
 }
-
-/* 
-.plano{
-
-}
-
-.planos{
-
-}
-
-img.imagem-plano{
-
-}
-
-img.imagem-plano-elite{
-
-}
-
-div.beneficios{
-
-}
-
-div.beneficios-elite{
-
-} */
 
 .vistoria{
 padding: 16px;
