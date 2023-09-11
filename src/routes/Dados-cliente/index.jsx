@@ -8,12 +8,10 @@ export default function index() {
         <div>
             <label for="idNome">Nome</label>
             <input type="text" name="nome" id="idNome" placeholder="Digite seu nome" required />
-        </div>
-        <div>
+
             <label for="idCPF">CPF</label>
             <input type="text" name="CPF" id="idCPF" placeholder="Digite seu CPF" required/>
-        </div>
-        <div>
+
             <label for="idValor">Valor</label>
             <input type="text" name="Valor" id="idValor" placeholder="Digite seu Valor TOTAL da sua bike" required/>
         </div>
