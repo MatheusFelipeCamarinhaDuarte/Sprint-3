@@ -1,8 +1,54 @@
+import { Link } from "react-router-dom"
 export default function index() {
   return (
 
     <main>
-        <h1>Confirme: </h1>
+<fieldset>
+    <legend>Confirme as seguintes informações</legend>
+    <nav>   
+        <div>
+            <label>Nome</label>
+            <p></p>
+        </div>
+        <div>
+            <label>CPF</label>
+            <p></p>
+        </div>
+        <div>
+            <label>Telefone</label>
+            <p></p>
+        </div>
+    </nav>
+
+
+    <nav>
+        <div>
+            <label>Modelo</label>
+            <p></p>
+        </div>
+        <div>
+            <label>Nº de série</label>
+            <p></p>
+        </div>
+        <div>
+            <label>Preço</label>
+            <p></p>
+        </div>
+    </nav>
+
+
+    <nav>
+      <button className="botao-voltar">
+        <Link to="/planos" className='texto-voltar'>voltar</Link>
+      </button>    
+    </nav>
+    <nav>
+      <button className="botao-avancar">
+        <Link to="/" className='texto-avancar'>avançar</Link>
+      </button>
+    </nav>
+</fieldset>
+
     </main>
 
 )
