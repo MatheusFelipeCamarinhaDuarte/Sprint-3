@@ -25,3 +25,16 @@
     width: 124px;
     height: 72px;
 }
+
+
+/*
+título
+*/
+.titulo-fotos{
+    color: #000;
+    font-family: Patua One;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+};
