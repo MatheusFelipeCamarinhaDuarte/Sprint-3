@@ -8,27 +8,23 @@ export default function AboutUs() {
       </p>
 
       <p>
-        Nossa missão é tornar sua vida mais fácil, fornecendo Seguros e serviços de alta qualidade que atendam às suas expectativas.
+        Nossa missão é tornar sua vida mais fácil, fornecendo seguros e serviços de alta qualidade que atendam às suas expectativas.
       </p>
-
+      
       <p>
-      
-      551356 - Enzo Oliveira
-  
-      551416 - MACIRANDER SOUZA DE MIRANDA FILHO
-
-      98672 - Mirelly Ribeiro Azevedo
-
-      552295 - MATHEUS FELIPE CAMARINHA DUARTE
-
-      551401 - Ana Luiza Fontes Franco
-
-      551856 - Beatriz Fon Ehnert de Santi
-
-      
-
+        Integrantes da equipe:
+        <ul>
+          <li>551356 - Enzo Oliveira</li>
+          <li>551416 - MACIRANDER SOUZA DE MIRANDA FILHO</li>
+          <li>98672 - Mirelly Ribeiro Azevedo</li>
+          <li>552295 - MATHEUS FELIPE CAMARINHA DUARTE</li>
+          <li>551401 - Ana Luiza Fontes Franco</li>
+          <li>551856 - Beatriz Fon Ehnert de Santi</li>
+        </ul>
       </p>
-
+      <p>
+        Visite nosso repositório no GitHub: <a href="https://github.com/MatheusFelipeCamarinhaDuarte/Sprint-3" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </p>
     </main>
   );
 }
