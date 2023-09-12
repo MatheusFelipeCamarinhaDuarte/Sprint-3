@@ -13,6 +13,8 @@ export default function index() {
   return (
 <main>
     
+
+
 <fieldset className='form-fotos'>
     <legend className='titulo-fotos'>Fotos</legend>
 
@@ -24,6 +26,7 @@ export default function index() {
             </div>
             <div>
                 <button>Enviar</button>
+
             </div>
         </div>
 
@@ -91,7 +94,7 @@ export default function index() {
             <div>
                 <button>Enviar</button>
             </div>
-        </div>
+      </div>
 
         <div className="quadro">
             <div>

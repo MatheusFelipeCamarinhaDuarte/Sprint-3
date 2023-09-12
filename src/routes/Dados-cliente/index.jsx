@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import '../CSS/Dados-cliente.css'
 
 
 export default function index() {
@@ -9,6 +10,7 @@ export default function index() {
     <legend className="titulo-cliente">Seus dados</legend>
     <nav className="formulario">
         <div>
+
             <label className="text-form" for="idNome">Nome</label>
             <input className='campo-form' type="text" name="nome" id="idNome" placeholder="Digite seu nome" required />
         </div>
@@ -19,6 +21,7 @@ export default function index() {
         <div>
             <label className="text-form" for="idValor">Valor</label>
             <input className='campo-form' type="text" name="Valor" id="idValor" placeholder="Digite seu Valor TOTAL da sua bike" required/>
+
         </div>
     </nav>
 </fieldset>

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import '../CSS/Confirmacao.css'
 
 export default function index() {
   return (
