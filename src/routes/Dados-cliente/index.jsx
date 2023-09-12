@@ -5,7 +5,7 @@ export default function index() {
 
   return (
     <main>
-<fieldset>
+<fieldset className="form-cliente">
     <legend>Seus dados</legend>
         <div>
             <label for="idNome">Nome</label>
@@ -21,16 +21,18 @@ export default function index() {
         </div>
 </fieldset>
 
-    <nav>
-      <button className="botao-voltar">
+<nav>
+  <div>
+    <button className="botao-voltar">
         <Link to="/" className='texto-voltar'>voltar</Link>
-      </button>    
-    </nav>
-    <nav>
-      <button className="botao-avancar">
-        <Link to="/dados-bike" className='texto-avancar'>avançar</Link>
-      </button>
-    </nav>
+    </button>    
+  </div>
+  <div>
+    <button className="botao-avancar">
+      <Link to="/dados-bike" className='texto-avancar'>avançar</Link>
+    </button>
+  </div>
+</nav>
 
     </main>
 )

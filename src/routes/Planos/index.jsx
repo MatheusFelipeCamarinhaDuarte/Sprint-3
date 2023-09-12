@@ -31,30 +31,31 @@ export default function index() {
         </div>
     </nav>
 </nav>
-    <nav className='plano-elite'>
-        <img className='imagem-plano-elite'src={imgPedalElite} />
-        <div className='beneficios-elite'>
-          <h2>Pedal Elite</h2>
-            <h3>Benefícios</h3>
-            <li>Benefícios Pedal Leve</li>
-            <li>Transporte do segurado e Bike - limite de 150km, em caso de quebra ou acidente </li>
-            <li>Instalação de suporte de parede e chão para bike</li>
-            <li>Serviço de Leva e Traz, com limite de 50km, mediante agendamento prévio</li>
-        </div>
-    </nav>
 
-    <nav>
-      <button className="botao-voltar">
+<nav className='plano-elite'>
+  <img className='imagem-plano-elite'src={imgPedalElite} />
+  <div className='beneficios-elite'>
+    <h2>Pedal Elite</h2>
+    <h3>Benefícios</h3>
+    <li>Benefícios Pedal Leve</li>
+    <li>Transporte do segurado e Bike - limite de 150km, em caso de quebra ou acidente </li>
+    <li>Instalação de suporte de parede e chão para bike</li>
+    <li>Serviço de Leva e Traz, com limite de 50km, mediante agendamento prévio</li>
+    </div>
+</nav>
+
+<nav>
+  <div>
+    <button className="botao-voltar">
         <Link to="/dados-bike/fotos" className='texto-voltar'>voltar</Link>
-      </button>    
-    </nav>
-    <nav>
-      <button className="botao-avancar">
-        <Link to="/planos/confirmacao" className='texto-avancar'>avançar</Link>
-      </button>
-    </nav>
-
-
+    </button>    
+  </div>
+  <div>
+    <button className="botao-avancar">
+      <Link to="/planos/confirmacao" className='texto-avancar'>avançar</Link>
+    </button>
+  </div>
+</nav>
 
 </main>
 )
