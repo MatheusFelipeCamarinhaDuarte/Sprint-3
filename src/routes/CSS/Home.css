@@ -1,16 +1,16 @@
-main :nth-child(){
+.home{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-img.imagem-plano {
+.imagem-plano {
     width: 80%;
     height: auto;
     padding: 30px;
 }
 
-h2{
+.titulo-plano{
     color: rgba(0, 0, 0, 0.85);
     font-size: 50px;
     font-family: Patua One;
@@ -97,5 +97,3 @@ padding: 16px;
     font-weight: bold;
     word-wrap: break-word
 }
-
-
