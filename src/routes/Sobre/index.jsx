@@ -25,7 +25,7 @@ export default function AboutUs() {
         </ul>
       </p>
       <p>
-        Visite nosso repositório no GitHub: <a href="https://github.com/MatheusFelipeCamarinhaDuarte/Sprint-3" target="_blank" rel="noopener noreferrer">GitHub</a>
+        Visite nosso repositório no <a href="https://github.com/MatheusFelipeCamarinhaDuarte/Sprint-3" target="_blank" rel="noopener noreferrer">GitHub</a>
       </p>
     </main>
   );
