@@ -116,4 +116,15 @@ voltar
     font-weight: 400;
     line-height: normal;
     };
-        
+      
+    
+    /*
+avançar
+*/
+.botao-avancar{
+    display: inline-flex;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    background: #425AB0;
+    };
