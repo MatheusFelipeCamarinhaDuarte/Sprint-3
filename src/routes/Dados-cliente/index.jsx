@@ -4,9 +4,10 @@ import '../CSS/Dados-cliente.css'
 
 export default function index() {
 
+  
   return (
 <main>
-<fieldset className="form-cliente">
+<div className="form-cliente">
     <legend className="titulo-cliente">Seus dados</legend>
     <nav className="formulario">
         <div>
@@ -24,7 +25,7 @@ export default function index() {
 
         </div>
     </nav>
-</fieldset>
+</div>
 
 <nav className="navegacao">
   <div>
