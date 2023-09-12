@@ -13,6 +13,13 @@ export default function index() {
     setOpcaoSelecionada(event.target.value);
   };
 
+function escolhePlano(){
+  let inputPlano = document.getElementById("opcaoSelecionada")
+  let plano = inputPlano.value
+  localStorage.setItem("Plano", JSON.stringify (infouser))
+}
+
+
   return (
     <main>
       <nav className='planos'>
@@ -67,7 +74,7 @@ export default function index() {
         </button>
       </nav>
       <nav>
-        <button className="botao-avancar">
+        <button onClick = {escolhePlano}className = "botao-avancar">
           <Link to="/planos/confirmacao" className='texto-avancar'>avançar</Link>
         </button>
       </nav>
