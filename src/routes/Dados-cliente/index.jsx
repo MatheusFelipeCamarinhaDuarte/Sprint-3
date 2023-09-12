@@ -21,16 +21,17 @@ export default function index() {
     <nav className="formulario">
         <div>
 
-            <label className="text-form" for="idNome">Nome</label>
+            <label className="text-form">Nome</label>
             <input className='campo-form' type="text" name="nome" id="idNome" placeholder="Digite seu nome" required />
         </div>
         <div>
-            <label className="text-form" for="idCPF">CPF</label>
+            <label className="text-form">CPF</label>
             <input className='campo-form'  type="text" name="CPF" id="idCPF" placeholder="Digite seu CPF" required/>
         </div>
         <div>
             <label for="idTelefone">Telefone</label>
             <input type="text" name="Telefone" id="idTelefone" placeholder="Digite seu telefone" required/>
+
         </div>
     </nav>
 </div>
