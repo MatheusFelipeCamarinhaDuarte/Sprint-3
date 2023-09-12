@@ -36,3 +36,62 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 };
+
+/*
+Retângulo do formulário
+*/
+.formulario{
+display: flex;
+width: 800px;
+padding: 0px 50px 27px 50px;
+flex-direction: column;
+align-items: flex-start;
+gap: 29px;
+background: #157EFB;
+};
+
+/*
+Campos do form
+*/
+.campo-form{
+width: 700px;
+height: 60px;
+flex-shrink: 0;
+border: 1px solid #157EFB;
+background: #FFF;
+};
+
+/*
+Textos do form
+*/
+.text-form{
+color: #FFF;
+font-family: Patua One;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 100px; /* 156.25% */
+};
+
+
+
+.texto-voltar{
+color: #157EFB;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Patua One;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+};
+
+
+.texto-voltar{
+color: rgba(255, 255, 255, 0.95);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Patua One;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+};
