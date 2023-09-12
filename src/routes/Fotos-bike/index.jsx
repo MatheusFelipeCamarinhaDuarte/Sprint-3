@@ -16,7 +16,7 @@ export default function index() {
 <fieldset className='form-fotos'>
     <legend className='titulo-fotos'>Fotos</legend>
 
-        <div className="quadrado-fotos">
+        <div className="quadro">
             <div>
                 <img className='img-quadro' src={Quadro} />
                 {/* 100px por 80px */}
@@ -28,7 +28,7 @@ export default function index() {
             </div>
         </div>
 
-        <div className="quadrado-fotos">
+        <div className="quadro">
             <div>
                 <img  className='img-num'src={NumSerie} />
                 {/* 80px por 80px */}
@@ -40,7 +40,7 @@ export default function index() {
             </div>
         </div>
 
-        <div className="quadrado-fotos">
+        <div className="quadro">
             <div>
                 <img  className='img-roda-tras' src={RodaTras} />
                 {/* 60px por 72px */}
@@ -52,7 +52,7 @@ export default function index() {
             </div>
         </div>
 
-        <div className="quadrado-fotos">
+        <div className="quadro">
             <div>
                 <img  className='img-roda-frente' src={RodaFrente} />
                 {/* 60px por 72px */}
@@ -64,7 +64,7 @@ export default function index() {
             </div>
         </div>
 
-        <div className="quadrado-fotos">
+        <div className="quadro">
             <div>
                 <img className='img-frente-tras' src={FrontalTraseira} />
                 {/* 70px por 72px */}
@@ -76,7 +76,7 @@ export default function index() {
             </div>
         </div>
 
-        <div className="quadrado-fotos">
+        <div className="quadro">
             <div>
                 <img  className='img-lateral' src={Lateral} />
                 {/* 100px por 72px */}
@@ -88,7 +88,7 @@ export default function index() {
             </div>
         </div>
 
-        <div className="quadrado-fotos">
+        <div className="quadro">
             <div>
                 <img  className='img-frente-tras' src={FrontalTraseira} />
                 {/* 70px por 72px */}
@@ -100,7 +100,7 @@ export default function index() {
             </div>
         </div>
 
-        <div className="quadrado-fotos">
+        <div className="quadro">
             <div>
                 <img  className='img-acessorios' src={Acessorios} />
                 {/* 124px por 72px */}
