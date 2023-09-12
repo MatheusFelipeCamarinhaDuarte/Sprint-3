@@ -54,9 +54,9 @@ export default function index() {
       <h1>Selecione uma opção:</h1>
       {/* Adicione o <select> e lide com a mudança de seleção */}
       <select id="opcaoSelecionada" value={opcaoSelecionada} onChange={handleOpcaoChange}>
-        <option value="opcao1">essencial</option>
-        <option value="opcao2">leve</option>
-        <option value="opcao3">elite 3</option>
+        <option value="opcao1">Essencial</option>
+        <option value="opcao2">Leve</option>
+        <option value="opcao3">Elite 3</option>
       </select>
 
       <p>Opção selecionada: <span id="opcaoEscolhida">{opcaoSelecionada === '' ? 'Nenhuma opção selecionada' : opcaoSelecionada}</span></p>
