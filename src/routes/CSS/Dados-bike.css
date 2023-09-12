@@ -5,8 +5,11 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+<<<<<<< HEAD
     align-items: center;
     background: linear-gradient(180deg, #FFF 0%, #A4DFFA 100%);
+=======
+>>>>>>> 9f55eb548c9387db0ada9aac4b6849b5de7e4be7
 };
 
 /*

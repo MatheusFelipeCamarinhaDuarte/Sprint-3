@@ -1,33 +1,44 @@
 import { Link } from "react-router-dom"
 import '../CSS/Dados-cliente.css'
 
+
 export default function index() {
+
+  
   return (
-    <main>
-<fieldset>
-    <legend>Seus dados</legend>
+<main>
+<div className="form-cliente">
+    <legend className="titulo-cliente">Seus dados</legend>
+    <nav className="formulario">
         <div>
-            <label for="idNome">Nome</label>
-            <input type="text" name="nome" id="idNome" placeholder="Digite seu nome" required />
 
-            <label for="idCPF">CPF</label>
-            <input type="text" name="CPF" id="idCPF" placeholder="Digite seu CPF" required/>
-
-            <label for="idValor">Valor</label>
-            <input type="text" name="Valor" id="idValor" placeholder="Digite seu Valor TOTAL da sua bike" required/>
+            <label className="text-form" for="idNome">Nome</label>
+            <input className='campo-form' type="text" name="nome" id="idNome" placeholder="Digite seu nome" required />
         </div>
-</fieldset>
+        <div>
+            <label className="text-form" for="idCPF">CPF</label>
+            <input className='campo-form'  type="text" name="CPF" id="idCPF" placeholder="Digite seu CPF" required/>
+        </div>
+        <div>
+            <label className="text-form" for="idValor">Valor</label>
+            <input className='campo-form' type="text" name="Valor" id="idValor" placeholder="Digite seu Valor TOTAL da sua bike" required/>
 
-    <nav>
-      <button className="botao-voltar">
-        <Link to="/" className='texto-voltar'>voltar</Link>
-      </button>    
+        </div>
     </nav>
-    <nav>
-      <button className="botao-avancar">
-        <Link to="/dados-bike" className='texto-avancar'>avançar</Link>
-      </button>
-    </nav>
+</div>
+
+<nav className="navegacao">
+  <div>
+        <Link to="/"  className="botao-voltar">
+          <button className='texto-voltar'>voltar</button>
+        </Link>
+  </div>
+  <div>
+    <Link to="/dados-bike" className="botao-avancar">
+      <button className='texto-avancar'>avançar</button>
+    </Link>
+  </div>
+</nav>
 
     </main>
 )

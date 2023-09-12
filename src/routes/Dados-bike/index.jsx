@@ -5,7 +5,7 @@ import '../CSS/Dados-bike.css'
 export default function index() {
   return (
     <main>
-<fieldset>
+<fieldset className="form-bike">
     <legend>Dados da Bike</legend>
         <div>
             <label for="idModelo">Modelo</label>
@@ -19,17 +19,20 @@ export default function index() {
         </div>
 </fieldset>
 
-    <nav>
-      <button className="botao-voltar">
-        <Link to="/dados-cliente" className='texto-voltar'>voltar</Link>
-      </button>    
-    </nav>
-    <nav>
-      <button className="botao-avancar">
-        <Link to="/dados-bike/fotos" className='texto-avancar'>avançar</Link>
-      </button>
-    </nav>
-  </main>
+<nav className="navegacao">
+  <div>
+    <Link  to="/dados-cliente" className="botao-voltar">
+      <button className='texto-voltar'>voltar</button>
+    </Link>    
+  </div>
+  <div>
+    <Link to="/dados-bike/fotos" className="botao-avancar">
+      <button  className='texto-avancar'>avançar</button>
+    </Link>
+  </div>
+</nav>
+
+</main>
 
 )
 }
