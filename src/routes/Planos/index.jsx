@@ -52,7 +52,7 @@ export default function index() {
       </nav>
 
       <h1>Selecione uma opção:</h1>
-      {/* Adicione o <select> e lide com a mudança de seleção */}
+      {/* adicione o <select> e lide com a mudança de selecao */}
       <select id="opcaoSelecionada" value={opcaoSelecionada} onChange={handleOpcaoChange}>
         <option value="opcao1">Plano Essencial</option>
         <option value="opcao2">Plano Leve</option>
@@ -60,6 +60,23 @@ export default function index() {
       </select>
 
       <p>Opção selecionada: <span id="opcaoEscolhida">{opcaoSelecionada === '' ? 'Nenhuma opção selecionada' : opcaoSelecionada}</span></p>
+
+      <script>
+
+    const opcaoSelecionada = document.getElementById('opcaoSelecionada');
+
+    const opcaoEscolhidaElement = document.getElementById('opcaoEscolhida');
+
+    let opcaoEscolhida = null;
+    
+    opcaoSelecionada.addEventListener('change', function() {
+      // armazene o val selecionado na variavel opcaoEscolhida
+      opcaoEscolhida = opcaoSelecionada.value;
+
+      // atualize o texto na pag p/ mostrar a opcao escolhida
+      opcaoEscolhidaElement.textContent = opcaoEscolhida;
+    });
+  </script>
 
       <nav>
         <button className="botao-voltar">
