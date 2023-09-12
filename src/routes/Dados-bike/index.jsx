@@ -23,14 +23,14 @@ export default function index() {
 
 <nav className="navegacao">
   <div>
-    <button className="botao-voltar">
-      <Link to="/dados-cliente" className='texto-voltar'>voltar</Link>
-    </button>    
+    <Link  to="/dados-cliente" className="botao-voltar">
+      <button className='texto-voltar'>voltar</button>
+    </Link>    
   </div>
   <div>
-    <button className="botao-avancar">
-      <Link to="/dados-bike/fotos" className='texto-avancar'>avançar</Link>
-    </button>
+    <Link to="/dados-bike/fotos" className="botao-avancar">
+      <button  className='texto-avancar'>avançar</button>
+    </Link>
   </div>
 </nav>
 

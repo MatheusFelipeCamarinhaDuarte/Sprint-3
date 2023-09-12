@@ -38,17 +38,19 @@ export default function index() {
     </nav>
 
 
-    <nav>
-      <button className="botao-voltar">
-        <Link to="/planos" className='texto-voltar'>voltar</Link>
-      </button>    
-    </nav>
-    <nav>
-      <button className="botao-avancar">
-        <Link to="/" className='texto-avancar'>avançar</Link>
-      </button>
-    </nav>
 </fieldset>
+<nav>
+    <div>
+        <button className="botao-voltar">
+            <Link to="/planos" className='texto-voltar'>voltar</Link>
+        </button>    
+    </div>
+    <div>
+        <button className="botao-avancar">
+            <Link to="/" className='texto-avancar'>avançar</Link>
+        </button>
+    </div>
+</nav>
 
     </main>
 
