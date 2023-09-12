@@ -44,7 +44,7 @@ export default function index() {
     </div>
 </nav>
 
-<nav>
+<nav className="navegacao">
   <div>
     <button className="botao-voltar">
         <Link to="/dados-bike/fotos" className='texto-voltar'>voltar</Link>

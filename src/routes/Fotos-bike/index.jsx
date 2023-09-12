@@ -113,7 +113,7 @@ export default function index() {
         
 </fieldset>
 
-<nav>
+<nav className="navegacao">
     <div>
         <button className="botao-voltar">
             <Link to="/dados-bike" className='texto-voltar'>voltar</Link>
