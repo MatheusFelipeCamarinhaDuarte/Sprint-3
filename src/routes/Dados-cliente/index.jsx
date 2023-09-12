@@ -12,15 +12,15 @@ export default function index() {
     <nav className="formulario">
         <div>
 
-            <label className="text-form" for="idNome">Nome</label>
+            <label className="text-form">Nome</label>
             <input className='campo-form' type="text" name="nome" id="idNome" placeholder="Digite seu nome" required />
         </div>
         <div>
-            <label className="text-form" for="idCPF">CPF</label>
+            <label className="text-form">CPF</label>
             <input className='campo-form'  type="text" name="CPF" id="idCPF" placeholder="Digite seu CPF" required/>
         </div>
         <div>
-            <label className="text-form" for="idValor">Valor</label>
+            <label className="text-form">Valor</label>
             <input className='campo-form' type="text" name="Valor" id="idValor" placeholder="Digite seu Valor TOTAL da sua bike" required/>
 
         </div>

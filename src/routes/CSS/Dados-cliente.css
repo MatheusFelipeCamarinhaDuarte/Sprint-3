@@ -1,0 +1,98 @@
+
+/*
+Página
+*/
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #FFF 0%, #A4DFFA 100%);
+};
+
+
+/*
+Retângulo de interação
+*/
+width: 1000px;
+height: 1000px;
+flex-shrink: 0;
+background: linear-gradient(180deg, #D9D9D9 0%, #00B4D8 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+
+/*
+Título
+*/
+color: #000;
+font-family: Patua One;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
+/*
+Retângulo do formulário
+*/
+display: flex;
+width: 800px;
+padding: 0px 50px 27px 50px;
+flex-direction: column;
+align-items: flex-start;
+gap: 29px;
+background: #157EFB;
+
+
+/*
+Campos do form
+*/
+width: 700px;
+height: 60px;
+flex-shrink: 0;
+border: 1px solid #157EFB;
+background: #FFF;
+
+/*
+Textos do form
+*/
+color: #FFF;
+font-family: Patua One;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 100px; /* 156.25% */
+
+/*
+Botão voltar
+*/
+display: inline-flex;
+padding: 25px 56px;
+justify-content: center;
+align-items: center;
+background: #FFF;
+
+color: #157EFB;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Patua One;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+/*
+Botão avançar
+*/
+display: inline-flex;
+padding: 25px;
+justify-content: center;
+align-items: center;
+background: #425AB0;
+
+color: rgba(255, 255, 255, 0.95);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Patua One;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;

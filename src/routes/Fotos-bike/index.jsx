@@ -24,10 +24,9 @@ export default function index() {
                 {/* 100px por 80px */}
                 <p>Foto do Quadro</p>
             </div>
-            <div>
-                <button>Enviar</button>
-
-            </div>
+            <button className="botao-enviar">
+                <Link className="texto-enviar">Enviar</Link>
+            </button>
         </div>
 
         <div className="quadro">
@@ -36,9 +35,9 @@ export default function index() {
                 {/* 80px por 80px */}
                 <p>Nº de série</p>
             </div>
-            <div>
-                <button>Enviar</button>
-            </div>
+            <button className="botao-enviar">
+                <Link className="texto-enviar">Enviar</Link>
+            </button>
         </div>
 
         <div className="quadro">
@@ -47,9 +46,9 @@ export default function index() {
                 {/* 60px por 72px */}
                 <p>Roda traseira</p>
             </div>
-            <div>
-                <button>Enviar</button>
-            </div>
+            <button className="botao-enviar">
+                <Link className="texto-enviar">Enviar</Link>
+            </button>
         </div>
 
         <div className="quadro">
@@ -58,9 +57,9 @@ export default function index() {
                 {/* 60px por 72px */}
                 <p>Roda frontal</p>
             </div>
-            <div>
-                <button>Enviar</button>
-            </div>
+            <button className="botao-enviar">
+                <Link className="texto-enviar">Enviar</Link>
+            </button>
         </div>
 
         <div className="quadro">
@@ -69,9 +68,9 @@ export default function index() {
                 {/* 70px por 72px */}
                 <p>Foto frontal</p>
             </div>
-            <div>
-                <div>Enviar</div>
-            </div>
+            <button className="botao-enviar">
+                <Link className="texto-enviar">Enviar</Link>
+            </button>
         </div>
 
         <div className="quadro">
@@ -80,9 +79,9 @@ export default function index() {
                 {/* 100px por 72px */}
                 <p>Foto Lateral</p>
             </div>
-            <div>
-                <button>Enviar</button>
-            </div>
+            <button className="botao-enviar">
+                <Link className="texto-enviar">Enviar</Link>
+            </button>
         </div>
 
         <div className="quadro">
@@ -91,9 +90,9 @@ export default function index() {
                 {/* 70px por 72px */}
                 <p>Foto Traseira</p>
             </div>
-            <div>
-                <button>Enviar</button>
-            </div>
+            <button className="botao-enviar">
+                <Link className="texto-enviar">Enviar</Link>
+            </button>
       </div>
 
         <div className="quadro">
@@ -103,7 +102,7 @@ export default function index() {
                 <p>Acessórios</p>
             </div>
             <button className="botao-enviar">
-                <Link to="" className="texto-enviar">Enviar</Link>
+                <Link className="texto-enviar">Enviar</Link>
             </button>
         </div>
         
