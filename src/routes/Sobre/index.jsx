@@ -1,6 +1,6 @@
 import '../CSS/About-us.css'
 
-export default function AboutUs() {
+export default function index() {
   return (
     <main>
       <h1>Sobre nós</h1>
