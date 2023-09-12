@@ -5,51 +5,55 @@ export default function index() {
   return (
 
     <main>
-<fieldset>
-    <legend>Confirme as seguintes informações</legend>
+<fieldset className="form-confirm">
+    <legend className="titulo-confirm">Confirme as seguintes informações</legend>
+    <nav>
     <nav>   
         <div>
-            <label>Nome</label>
-            <p></p>
+            <h3 className="titulo-info">Nome</h3>
+            <p  className="info"></p>
         </div>
         <div>
-            <label>CPF</label>
-            <p></p>
+            <h3 className="titulo-info">CPF</h3>
+            <p  className="info"></p>
         </div>
         <div>
-            <label>Telefone</label>
-            <p></p>
+            <h3 className="titulo-info">Telefone</h3>
+            <p  className="info"></p>
         </div>
     </nav>
 
 
     <nav>
         <div>
-            <label>Modelo</label>
-            <p></p>
+            <h3 className="titulo-info">Modelo</h3>
+            <p  className="info"></p>
         </div>
         <div>
-            <label>Nº de série</label>
-            <p></p>
+            <h3 className="titulo-info">Nº de série</h3>
+            <p  className="info"></p>
         </div>
         <div>
-            <label>Preço</label>
-            <p></p>
+            <h3 className="titulo-info">Preço</h3>
+            <p  className="info"></p>
         </div>
     </nav>
-
-
-    <nav>
-      <button className="botao-voltar">
-        <Link to="/planos" className='texto-voltar'>voltar</Link>
-      </button>    
     </nav>
-    <nav>
-      <button className="botao-avancar">
-        <Link to="/" className='texto-avancar'>avançar</Link>
-      </button>
-    </nav>
+
 </fieldset>
+
+<nav>
+    <div>
+        <Link to="/planos" className="botao-voltar">
+            <button  className='texto-voltar'>voltar</button>
+        </Link>    
+    </div>
+    <div>
+        <Link to="/" className="botao-avancar">
+            <button  className='texto-avancar'>avançar</button>
+        </Link>
+    </div>
+</nav>
 
     </main>
 
