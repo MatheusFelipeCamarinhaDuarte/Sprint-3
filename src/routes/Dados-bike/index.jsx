@@ -14,8 +14,8 @@ export default function index() {
             <label for="idNSerie">Nº de Série</label>
             <input type="text" name="NSerie" id="idNSerie" placeholder="Digite seu Nº Série" required/>
 
-            <label for="idTelefone">Telefone</label>
-            <input type="text" name="Telefone" id="idTelefone" placeholder="Digite seu telefone" required/>
+            <label className="text-form" for="idValor">Valor</label>
+            <input className='campo-form' type="text" name="Valor" id="idValor" placeholder="Digite seu Valor TOTAL da sua bike" required/>
         </div>
 </fieldset>
 

@@ -4,7 +4,7 @@ import '../CSS/Dados-cliente.css'
 
 export default function index() {
 
-  
+
   return (
 <main>
 <div className="form-cliente">
@@ -20,9 +20,8 @@ export default function index() {
             <input className='campo-form'  type="text" name="CPF" id="idCPF" placeholder="Digite seu CPF" required/>
         </div>
         <div>
-            <label className="text-form" for="idValor">Valor</label>
-            <input className='campo-form' type="text" name="Valor" id="idValor" placeholder="Digite seu Valor TOTAL da sua bike" required/>
-
+            <label for="idTelefone">Telefone</label>
+            <input type="text" name="Telefone" id="idTelefone" placeholder="Digite seu telefone" required/>
         </div>
     </nav>
 </div>
