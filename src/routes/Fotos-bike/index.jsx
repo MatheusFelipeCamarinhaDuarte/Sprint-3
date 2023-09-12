@@ -23,8 +23,7 @@ export default function index() {
                 <p>Foto do Quadro</p>
             </div>
             <div>
-                <div></div>
-                <div>Enviar</div>
+                <button>Enviar</button>
             </div>
         </div>
 
@@ -35,8 +34,7 @@ export default function index() {
                 <p>Nº de série</p>
             </div>
             <div>
-                <div></div>
-                <div>Enviar</div>
+                <button>Enviar</button>
             </div>
         </div>
 
@@ -47,8 +45,7 @@ export default function index() {
                 <p>Roda traseira</p>
             </div>
             <div>
-                <div></div>
-                <div>Enviar</div>
+                <button>Enviar</button>
             </div>
         </div>
 
@@ -59,8 +56,7 @@ export default function index() {
                 <p>Roda frontal</p>
             </div>
             <div>
-                <div></div>
-                <div>Enviar</div>
+                <button>Enviar</button>
             </div>
         </div>
 
@@ -71,7 +67,6 @@ export default function index() {
                 <p>Foto frontal</p>
             </div>
             <div>
-                <div></div>
                 <div>Enviar</div>
             </div>
         </div>
@@ -83,8 +78,7 @@ export default function index() {
                 <p>Foto Lateral</p>
             </div>
             <div>
-                <div></div>
-                <div>Enviar</div>
+                <button>Enviar</button>
             </div>
         </div>
 
@@ -95,8 +89,7 @@ export default function index() {
                 <p>Foto Traseira</p>
             </div>
             <div>
-                <div></div>
-                <div>Enviar</div>
+                <button>Enviar</button>
             </div>
         </div>
 
