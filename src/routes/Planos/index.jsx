@@ -61,22 +61,6 @@ export default function index() {
 
       <p>Opção selecionada: <span id="opcaoEscolhida">{opcaoSelecionada === '' ? 'Nenhuma opção selecionada' : opcaoSelecionada}</span></p>
 
-     <script>
-
-    const opcaoSelecionada = document.getElementById('opcaoSelecionada');
-
-    const opcaoEscolhidaElement = document.getElementById('opcaoEscolhida');
-
-    let opcaoEscolhida = null;
-    
-    opcaoSelecionada.addEventListener('change', function() 
-    
-      opcaoEscolhida = opcaoSelecionada.value;
-
-      opcaoEscolhidaElement.textContent = opcaoEscolhida;
-    );
-  </script>
-
       <nav>
         <button className="botao-voltar">
           <Link to="/dados-bike/fotos" className='texto-voltar'>voltar</Link>
