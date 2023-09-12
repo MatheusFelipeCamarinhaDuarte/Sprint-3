@@ -27,9 +27,7 @@
 }
 
 
-/*
-título
-*/
+
 .titulo-fotos{
     color: #000;
     font-family: Patua One;
@@ -40,9 +38,7 @@ título
 };
 
 
-/*
-fundo
-*/
+
 .form-fotos{
     display: flex;
     width: 1200px;
@@ -56,9 +52,7 @@ fundo
     };
 
 
-    /*
-gradiente
-*/
+
 main{
     width: 1000px;
     height: 1000px;
@@ -68,9 +62,7 @@ main{
     };
 
 
-    /*
-mini-retangulos
-*/
+ 
 .quadro{
     display: flex;
     width: 200px;
@@ -83,9 +75,7 @@ mini-retangulos
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
 
-    /*
-botoes
-*/
+
 .botao-enviar{
     display: flex;
     height: 25px;
@@ -96,9 +86,7 @@ botoes
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     };
     
-/*
-voltar
-*/
+
 .botao-voltar{
     display: inline-flex;
     padding: 25px 56px;
@@ -118,9 +106,7 @@ voltar
     };
       
     
-    /*
-avançar
-*/
+
 .botao-avancar{
     display: inline-flex;
     padding: 25px;
@@ -129,6 +115,7 @@ avançar
     background: #425AB0;
     };
 
+    
 .texto-avancar{
     color: rgba(255, 255, 255, 0.95);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
