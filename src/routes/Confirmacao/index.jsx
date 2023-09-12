@@ -2,7 +2,15 @@ import { Link } from "react-router-dom"
 import '../CSS/Confirmacao.css'
 
 export default function index() {
-  return (
+if (localStorage.infoUser !== null) {
+    let infoUser =[] 
+    infoUser = JSON.parse(localStorage.getItem("infoUser"))
+    console.log(nome, cpf, telefone)
+    let nome = infoUser[0]
+    let cpf = infoUser[1]
+    let telefone = infoUser[2]
+}
+    return (
 
     <main>
 <fieldset className="form-confirm">
@@ -11,15 +19,15 @@ export default function index() {
     <nav>   
         <div>
             <h3 className="titulo-info">Nome</h3>
-            <p  className="info"></p>
+            <p  className="info" id='idInfoNome'>{nome}</p>
         </div>
         <div>
             <h3 className="titulo-info">CPF</h3>
-            <p  className="info"></p>
+            <p  className="info" id='idInfoCPF'>{cpf}</p>
         </div>
         <div>
             <h3 className="titulo-info">Telefone</h3>
-            <p  className="info"></p>
+            <p  className="info" id='idInforTelefone'>{telefone}</p>
         </div>
     </nav>
 

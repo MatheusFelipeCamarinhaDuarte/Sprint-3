@@ -2,8 +2,17 @@ import { Link } from "react-router-dom"
 import '../CSS/Dados-cliente.css'
 
 
+function recolherDados(){
+  let inputNome = document.getElementById("idNome");
+  let nome = inputNome.value;
+  let inputCpf = document.getElementById("idCPF");
+  let cpf = inputCpf.value;
+  let inputTelefone = document.getElementById("idTelefone");
+  let telefone = inputTelefone.value;
+  let infoUser = [nome, cpf, telefone];
+  localStorage.setItem("inforUser", JSON.stringify(infoUser));
+}
 export default function index() {
-
 
   return (
 <main>
@@ -34,7 +43,7 @@ export default function index() {
   </div>
   <div>
     <Link to="/dados-bike" className="botao-avancar">
-      <button className='texto-avancar'>avançar</button>
+      <button className='texto-avancar' onClick={recolherDados}>avançar</button>
     </Link>
   </div>
 </nav>
