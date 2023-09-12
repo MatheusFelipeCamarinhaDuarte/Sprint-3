@@ -61,7 +61,7 @@ export default function index() {
 
       <p>Opção selecionada: <span id="opcaoEscolhida">{opcaoSelecionada === '' ? 'Nenhuma opção selecionada' : opcaoSelecionada}</span></p>
 
-      <script>
+     <script>
 
     const opcaoSelecionada = document.getElementById('opcaoSelecionada');
 
@@ -69,13 +69,12 @@ export default function index() {
 
     let opcaoEscolhida = null;
     
-    opcaoSelecionada.addEventListener('change', function() {
-      // armazene o val selecionado na variavel opcaoEscolhida
+    opcaoSelecionada.addEventListener('change', function() 
+    
       opcaoEscolhida = opcaoSelecionada.value;
 
-      // atualize o texto na pag p/ mostrar a opcao escolhida
       opcaoEscolhidaElement.textContent = opcaoEscolhida;
-    });
+    );
   </script>
 
       <nav>
