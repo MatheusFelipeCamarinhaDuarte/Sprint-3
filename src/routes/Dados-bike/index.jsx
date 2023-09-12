@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import '../CSS/Bike.css'
+import '../CSS/Dados-bike.css'
 
 
 export default function index() {
