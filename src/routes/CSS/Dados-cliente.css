@@ -73,7 +73,16 @@ font-weight: 400;
 line-height: 100px; /* 156.25% */
 };
 
-
+/*
+Botão voltar
+*/
+.botao-voltar{
+display: inline-flex;
+padding: 25px 56px;
+justify-content: center;
+align-items: center;
+background: #FFF;
+};
 
 .texto-voltar{
 color: #157EFB;
@@ -85,6 +94,16 @@ font-weight: 400;
 line-height: normal;
 };
 
+/*
+Botão avançar
+*/
+.botao-voltar{
+display: inline-flex;
+padding: 25px;
+justify-content: center;
+align-items: center;
+background: #425AB0;
+};
 
 .texto-voltar{
 color: rgba(255, 255, 255, 0.95);
