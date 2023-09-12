@@ -1,6 +1,3 @@
-/*
-Página
-*/
 main{
     display: flex;
     width: 1200px;
@@ -13,10 +10,8 @@ main{
     background: linear-gradient(180deg, #FFF 0%, #A4DFFA 100%);
 };
 
-/*
-Retângulo de interação
-*/
-fieldset{
+
+.form-confirm{
     width: 1000px;
     height: 1000px;
     flex-shrink: 0;
@@ -24,10 +19,8 @@ fieldset{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 };
 
-/*
-Título
-*/
-legend{
+
+.titulo-confirm{
     color: #000;
     font-family: Patua One;
     font-size: 64px;
@@ -36,31 +29,25 @@ legend{
     line-height: normal;
 };
 
-/*
-Retângulo do formulário
-*/
-nav{
+
+.formulario{
     width: 800px;
     height: 650px;
     flex-shrink: 0;
     background: #157EFB;
 };
 
-/*
-Campos do form
-*/
 
-/* width: 350px;
-height: 40px;
-flex-shrink: 0;
-border: 1px solid #157EFB;
-background: #FFF; */
+p.info{
+    width: 350px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #157EFB;
+    background: #FFF;
+};
 
 
-/*
-Textos do form
-*/
-label{
+h3.titulo-info{
     color: #FFF;
     font-family: Patua One;
     font-size: 64px;
@@ -69,9 +56,7 @@ label{
     line-height: 100px; /* 156.25% */
 };
 
-/*
-Botão voltar
-*/
+
 .botao-voltar{
     display: inline-flex;
     padding: 25px 56px;
@@ -90,9 +75,7 @@ Botão voltar
     line-height: normal;
 };
 
-/*
-Botão avançar
-*/
+
 .botao-avancar{
     display: inline-flex;
     padding: 25px 15px 25px 14px;

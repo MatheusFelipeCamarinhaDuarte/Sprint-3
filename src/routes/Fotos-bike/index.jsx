@@ -15,7 +15,6 @@ export default function index() {
     
 <fieldset>
     <legend>Fotos</legend>
-        <div className="caixa">
             <div className="quadro">
                 <div>
                     <img src={Quadro} />
@@ -108,7 +107,6 @@ export default function index() {
                 </div>
                 <button className="botao-enviar">Enviar</button>
             </div>
-        </div>
 </fieldset>
 
 <nav>
