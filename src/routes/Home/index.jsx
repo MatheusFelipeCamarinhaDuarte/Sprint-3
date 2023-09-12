@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 export default function index() {
   return (
-<main>
+<main className='home'>
 <nav className='planos'>
     <nav className='plano'>
         <img className='imagem-plano' src={imgPedalEssencial} />
@@ -21,7 +21,7 @@ export default function index() {
 
     <nav className='plano'>
         <img className='imagem-plano' src={imgPedalLeve} />
-        <h2>Pedal Leve</h2>
+        <h2 className='titulo-plano'>Pedal Leve</h2>
         <div className='beneficios'>
             <h3>Benefícios</h3>
             <li>Benefícios Pedal Essencial</li>
@@ -33,7 +33,7 @@ export default function index() {
     <nav className='plano-elite'>
         <img className='imagem-plano-elite'src={imgPedalElite} />
         <div className='beneficios-elite'>
-          <h2>Pedal Elite</h2>
+          <h2 className='titulo-plano'>Pedal Elite</h2>
             <h3>Benefícios</h3>
             <li>Benefícios Pedal Leve</li>
             <li>Transporte do segurado e Bike - limite de 150km, em caso de quebra ou acidente </li>
@@ -41,6 +41,7 @@ export default function index() {
             <li>Serviço de Leva e Traz, com limite de 50km, mediante agendamento prévio</li>
         </div>
     </nav>
+    
     <nav className='vistoria'>
       <button className="botao-vistoria">
         <Link to="/dados-cliente" className='texto-vistoria'>Realizar vistoria</Link>
