@@ -21,7 +21,7 @@ export default function index() {
         </div>
 </fieldset>
 
-<nav>
+<nav className="navegacao">
   <div>
     <button className="botao-voltar">
       <Link to="/dados-cliente" className='texto-voltar'>voltar</Link>
