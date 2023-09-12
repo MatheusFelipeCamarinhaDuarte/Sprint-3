@@ -41,7 +41,7 @@ export default function index() {
             <li>Serviço de Leva e Traz, com limite de 50km, mediante agendamento prévio</li>
         </div>
     </nav>
-    
+
     <nav className='vistoria'>
       <button className="botao-vistoria">
         <Link to="/dados-cliente" className='texto-vistoria'>Realizar vistoria</Link>

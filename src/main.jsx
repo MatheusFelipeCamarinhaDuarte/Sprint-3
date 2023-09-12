@@ -6,8 +6,8 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Confirmacao from "./routes/Confirmacao/index.jsx"
 import DadosBike from "./routes/Dados-bike/index.jsx"
-import DadosCliente from "./routes/Dados-cliente/index.jsx"
 import Error from "./routes/Error/index.jsx"
+import DadosCliente from "./routes/Dados-cliente/index.jsx"
 import FotosBike from "./routes/Fotos-bike/index.jsx"
 import Home from "./routes/Home/index.jsx"
 import Planos from "./routes/Planos/index.jsx"
