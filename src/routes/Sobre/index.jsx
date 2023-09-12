@@ -1,3 +1,5 @@
+import '../CSS/About-us.css'
+
 export default function AboutUs() {
   return (
     <main>
