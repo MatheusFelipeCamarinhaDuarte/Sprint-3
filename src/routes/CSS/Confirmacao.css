@@ -2,6 +2,9 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(180deg, #FFF 0%, #A4DFFA 100%);
+
 };
 
 
