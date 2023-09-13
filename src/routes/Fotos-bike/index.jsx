@@ -11,115 +11,117 @@ import RodaTras from "../img/Roda-de-tras.jpg"
 
 export default function index() {
   return (
-<main>
+<main className='fotos'>
     
 
-
-<fieldset className='form-fotos'>
+<nav className='form-fotos'>
+<fieldset>
     <legend className='titulo-fotos'>Fotos</legend>
-
-        <div className="quadro">
-            <div>
+    <div className='superior'>
+        <nav className="quadro">
+            <nav>
                 <img className='img-quadro' src={Quadro} />
                 {/* 100px por 80px */}
                 <p>Foto do Quadro</p>
-            </div>
+            </nav>
             <button className="botao-enviar">
                 <Link className="texto-enviar">Enviar</Link>
             </button>
-        </div>
+        </nav>
 
-        <div className="quadro">
-            <div>
+        <nav className="quadro">
+            <nav>
                 <img  className='img-num'src={NumSerie} />
                 {/* 80px por 80px */}
                 <p>Nº de série</p>
-            </div>
+            </nav>
             <button className="botao-enviar">
                 <Link className="texto-enviar">Enviar</Link>
             </button>
-        </div>
+        </nav>
 
-        <div className="quadro">
-            <div>
+        <nav className="quadro">
+            <nav>
                 <img  className='img-roda-tras' src={RodaTras} />
                 {/* 60px por 72px */}
                 <p>Roda traseira</p>
-            </div>
+            </nav>
             <button className="botao-enviar">
                 <Link className="texto-enviar">Enviar</Link>
             </button>
-        </div>
+        </nav>
 
-        <div className="quadro">
-            <div>
+        <nav className="quadro">
+            <nav>
                 <img  className='img-roda-frente' src={RodaFrente} />
                 {/* 60px por 72px */}
                 <p>Roda frontal</p>
-            </div>
+            </nav>
             <button className="botao-enviar">
                 <Link className="texto-enviar">Enviar</Link>
             </button>
-        </div>
-
-        <div className="quadro">
-            <div>
+        </nav>
+    </div>
+<div className='inferior'>
+        <nav className="quadro">
+            <nav>
                 <img className='img-frente-tras' src={FrontalTraseira} />
                 {/* 70px por 72px */}
                 <p>Foto frontal</p>
-            </div>
+            </nav>
             <button className="botao-enviar">
                 <Link className="texto-enviar">Enviar</Link>
             </button>
-        </div>
+        </nav>
 
-        <div className="quadro">
-            <div>
+        <nav className="quadro">
+            <nav>
                 <img  className='img-lateral' src={Lateral} />
                 {/* 100px por 72px */}
                 <p>Foto Lateral</p>
-            </div>
+            </nav>
             <button className="botao-enviar">
                 <Link className="texto-enviar">Enviar</Link>
             </button>
-        </div>
+        </nav>
 
-        <div className="quadro">
-            <div>
+        <nav className="quadro">
+            <nav>
                 <img  className='img-frente-tras' src={FrontalTraseira} />
                 {/* 70px por 72px */}
                 <p>Foto Traseira</p>
-            </div>
+            </nav>
             <button className="botao-enviar">
                 <Link className="texto-enviar">Enviar</Link>
             </button>
-      </div>
+        </nav>
 
-        <div className="quadro">
-            <div>
+        <nav className="quadro">
+            <nav>
                 <img  className='img-acessorios' src={Acessorios} />
                 {/* 124px por 72px */}
                 <p>Acessórios</p>
-            </div>
+            </nav>
             <button className="botao-enviar">
                 <Link className="texto-enviar">Enviar</Link>
             </button>
+        </nav>
         </div>
-        
 </fieldset>
+</nav>  
 
 <nav className="navegacao">
-    <div>
-        <Link to="/dados-bike" className="botao-voltar">
-            <button className='texto-voltar'>voltar</button>
+    <nav>
+        <Link to="/dados-bike">
+            <button className="botao-voltar">voltar</button>
         </Link>    
-    </div>
+    </nav>
 
-    <div>
-        <Link to="/planos" className="botao-avancar">
-            <button  className='texto-avancar'>avançar</button>
+    <nav>
+        <Link to="/planos">
+            <button  className="botao-avancar">avançar</button>
         </Link>
-    </div>
+    </nav>
 </nav>
 
 </main>

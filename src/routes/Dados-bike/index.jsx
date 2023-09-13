@@ -1,10 +1,20 @@
 import { Link } from "react-router-dom"
 import '../CSS/Dados-bike.css'
 
+function recolherDados(){
+  let inputModelo = document.getElementById("idModelo");
+  let modelo = inputModelo.value;
+  let inputNum = document.getElementById("idNSerie");
+  let num = inputNum.value;
+  let inputValor = document.getElementById("idValor");
+  let valor = inputValor.value;
+  let infoBike = [modelo, num, valor];
+  localStorage.setItem("infoBike", JSON.stringify(infoBike));
+}
 
 export default function index() {
   return (
-    <main>
+    <main className='dados'>
 <fieldset className="form-bike">
     <legend>Dados da Bike</legend>
         <div>
@@ -21,13 +31,13 @@ export default function index() {
 
 <nav className="navegacao">
   <div>
-    <Link  to="/dados-cliente" className="botao-voltar">
-      <button className='texto-voltar'>voltar</button>
+    <Link  to="/dados-cliente" >
+      <button className="botao-voltar">voltar</button>
     </Link>    
   </div>
   <div>
-    <Link to="/dados-bike/fotos" className="botao-avancar">
-      <button  className='texto-avancar'>avançar</button>
+    <Link to="/dados-bike/fotos">
+      <button onClick={recolherDados} className="botao-avancar">avançar</button>
     </Link>
   </div>
 </nav>

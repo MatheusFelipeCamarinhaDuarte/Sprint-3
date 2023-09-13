@@ -10,12 +10,12 @@ function recolherDados(){
   let inputTelefone = document.getElementById("idTelefone");
   let telefone = inputTelefone.value;
   let infoUser = [nome, cpf, telefone];
-  localStorage.setItem("inforUser", JSON.stringify(infoUser));
+  localStorage.setItem("infoUser", JSON.stringify(infoUser));
 }
 export default function index() {
 
   return (
-<main>
+<main className='dados'>
 <div className="form-cliente">
     <legend className="titulo-cliente">Seus dados</legend>
     <nav className="formulario">
@@ -38,13 +38,13 @@ export default function index() {
 
 <nav className="navegacao">
   <div>
-        <Link to="/"  className="botao-voltar">
-          <button className='texto-voltar'>voltar</button>
+        <Link to="/"  >
+          <button className="botao-voltar">voltar</button>
         </Link>
   </div>
   <div>
-    <Link to="/dados-bike" className="botao-avancar">
-      <button className='texto-avancar' onClick={recolherDados}>avançar</button>
+    <Link to="/dados-bike" >
+      <button className="botao-avancar" onClick={recolherDados}>avançar</button>
     </Link>
   </div>
 </nav>

@@ -1,4 +1,4 @@
-import './App.css'
+
 import { Outlet } from 'react-router'
 import Menu from './components/Menu'
 import Rodape from './components/Rodape'

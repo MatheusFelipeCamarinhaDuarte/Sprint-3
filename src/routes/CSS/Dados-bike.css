@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-};
+}
 
 /*
 Página
 */
-main {
+main.dados{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -83,20 +83,17 @@ label{
 Botão voltar
 */
 .botao-voltar{
-    display: inline-flex;
+    display: flex;
     padding: 25px 56px;
     justify-content: center;
     align-items: center;
     background: #FFF;
-};
-
-.texto-voltar{
     color: #157EFB;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Patua One;
-    font-size: 64px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+
     line-height: normal;
 };
 
@@ -105,19 +102,16 @@ Botão voltar
 Botão avançar
 */
 .botao-avancar{
-    display: inline-flex;
+    display: flex;
     padding: 25px;
     justify-content: center;
     align-items: center;
     background: #425AB0;
-};
-
-.texto-avancar{
     color: rgba(255, 255, 255, 0.95);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Patua One;
-    font-size: 64px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+
     line-height: normal;
 };
