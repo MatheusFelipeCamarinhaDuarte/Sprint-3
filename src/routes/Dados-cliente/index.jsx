@@ -2,11 +2,20 @@ import { Link } from "react-router-dom"
 import '../CSS/Dados-cliente.css'
 
 
+function recolherDados(){
+  let inputNome = document.getElementById("idNome");
+  let nome = inputNome.value;
+  let inputCpf = document.getElementById("idCPF");
+  let cpf = inputCpf.value;
+  let inputTelefone = document.getElementById("idTelefone");
+  let telefone = inputTelefone.value;
+  let infoUser = [nome, cpf, telefone];
+  localStorage.setItem("infoUser", JSON.stringify(infoUser));
+}
 export default function index() {
 
-
   return (
-<main>
+<main className='dados'>
 <div className="form-cliente">
     <legend className="titulo-cliente">Seus dados</legend>
     <nav className="formulario">
@@ -29,13 +38,13 @@ export default function index() {
 
 <nav className="navegacao">
   <div>
-        <Link to="/"  className="botao-voltar">
-          <button className='texto-voltar'>voltar</button>
+        <Link to="/"  >
+          <button className="botao-voltar">voltar</button>
         </Link>
   </div>
   <div>
-    <Link to="/dados-bike" className="botao-avancar">
-      <button className='texto-avancar'>avançar</button>
+    <Link to="/dados-bike" >
+      <button className="botao-avancar" onClick={recolherDados}>avançar</button>
     </Link>
   </div>
 </nav>

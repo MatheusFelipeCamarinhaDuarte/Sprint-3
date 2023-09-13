@@ -1,92 +1,93 @@
-main {
+main.confirmacao{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(180deg, #FFF 0%, #A4DFFA 100%);
 
-};
+}
 
 
 .form-confirm{
-    width: 1000px;
-    height: 1000px;
     flex-shrink: 0;
     background: linear-gradient(180deg, #D9D9D9 0%, #00B4D8 100%);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-};
+}
 
 
 .titulo-confirm{
     color: #000;
     font-family: Patua One;
-    font-size: 64px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-};
+}
 
 
 .formulario{
-    width: 800px;
-    height: 650px;
     flex-shrink: 0;
     background: #157EFB;
-};
+}
 
 
 p.info{
-    width: 350px;
-    height: 40px;
-    flex-shrink: 0;
-    border: 1px solid #157EFB;
-    background: #FFF;
-};
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: #FFF;
+}
 
 
 h3.titulo-info{
+    display: flex;
     color: #FFF;
     font-family: Patua One;
-    font-size: 64px;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 100px; /* 156.25% */
-};
+    justify-content: center;
+
+}
+
 
 
 .botao-voltar{
-    display: inline-flex;
+    color: #157EFB;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Patua One;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    display: flex;
     padding: 25px 56px;
     justify-content: center;
     align-items: center;
     background: #FFF;
-};
-
-.texto-voltar{
-    color: #157EFB;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Patua One;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-};
+}
 
 
 .botao-avancar{
-    display: inline-flex;
+    display: flex;
     padding: 25px 15px 25px 14px;
     justify-content: center;
     align-items: center;
     background: #425AB0;
-};
-
-.texto-avancar{
     color: rgba(255, 255, 255, 0.95);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Patua One;
-    font-size: 64px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 400;
     line-height: normal;
-};
+}
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.navegacao div{
+        display: flex;
+        justify-content: space-around;
+}

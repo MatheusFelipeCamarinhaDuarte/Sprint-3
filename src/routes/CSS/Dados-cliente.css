@@ -7,7 +7,7 @@
 /*
 Página
 */
-main {
+main.dados{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -18,10 +18,10 @@ main {
 /*
 Retângulo de interação
 */
-fieldset {
-    width: 1000px;
-    height: 1000px;
-    flex-shrink: 0;
+
+.form-cliente{
+display: flex;
+
     background: linear-gradient(180deg, #D9D9D9 0%, #00B4D8 100%);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 };
@@ -30,13 +30,15 @@ fieldset {
 /*
 Título
 */
-legend {
-    color: #000;
-    font-family: Patua One;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+
+.titulo-cliente{
+color: #000;
+font-family: Patua One;
+font-size: 20px;
+font-style: normal;
+
+line-height: normal;
+
 };
 
 
@@ -83,41 +85,43 @@ label{
 Botão voltar
 */
 .botao-voltar{
-    display: inline-flex;
-    padding: 25px 56px;
-    justify-content: center;
-    align-items: center;
-    background: #FFF;
+display: inline-flex;
+padding: 25px 56px;
+justify-content: center;
+align-items: center;
+background: #FFF;
+color: #157EFB;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Patua One;
+font-size: 20px;
+font-style: normal;
+
+line-height: normal;
 };
 
-.texto-voltar{
-    color: #157EFB;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Patua One;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-};
+
 
 
 /*
 Botão avançar
 */
-.botao-avancar{
-    display: inline-flex;
-    padding: 25px;
-    justify-content: center;
-    align-items: center;
-    background: #425AB0;
-};
+.botao-voltar{
+display: inline-flex;
+padding: 25px;
+justify-content: center;
+align-items: center;
+background: #425AB0;
+color: rgba(255, 255, 255, 0.95);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Patua One;
+font-size: 20px;
+font-style: normal;
 
-.texto-avancar{
-    color: rgba(255, 255, 255, 0.95);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Patua One;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-};
+line-height: normal;
+}
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
